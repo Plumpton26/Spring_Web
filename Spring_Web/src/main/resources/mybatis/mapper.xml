@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- 해당 형식으로 기초적인 SQL문을 구성 -->
+<mapper namespace="com.care.mybatis.myMapper"><!--  해당  xml 파일의 경로를 설정 -->
+	<select id="listAll" resultType="dto"> <!-- mybatis-config의 alias한 값 -->
+		select * from  테이블명  order by 컬럼명 asc
+	</select>
+	
+	<select id="list" resultType="dto"> <!-- mybatis-config의 alias한 값 -->
+		select * from 테이블명 where 컬럼명=#{컬럼명}
+	</select>
+	
+	<insert id="savedata" parameterType="dto"> <!-- mybatis-config의 alias한 값 -->
+		insert into 테이블명 values(#{컬럼명}, #{컬럼명}, #{컬럼명})
+	</insert>
+	
+	<update id="update" parameterType="dto"> <!-- mybatis-config의 alias한 값 -->
+		update 테이블명 set 컬럼명=#{컬럼명}, 컬럼명=#{컬럼명} where 컬럼명=#{컬럼명}
+	</update>
+	
+	<delete id="delete" parameterType="String">
+		delete from 테이블명 where 컬럼명=#{컬럼명}
+	</delete>
+</mapper>

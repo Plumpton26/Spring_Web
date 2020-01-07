@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias alias="dto" type="DTO 클래스 명을 기입 필요"></typeAlias>
+	</typeAliases>
+	<!-- 향후 DTO, VO 클래스를 작성 시, 해당 클래스에 대한 별칭 부여 작업 -->
+	
+</configuration>
