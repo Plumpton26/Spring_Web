@@ -144,7 +144,7 @@
 			<classifier>jdk15</classifier>
 		</dependency>		
 	
-	<!-- JDBC Template -->
+	<!-- spring-jdbc -->
 	 <dependency>
 	 	<groupId>org.springframework</groupId>
 	 	<artifactId>spring-jdbc</artifactId>
