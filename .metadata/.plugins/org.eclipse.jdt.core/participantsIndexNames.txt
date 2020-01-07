@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-D:\JJW\Workspace\Spring_web\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3586426872.index
-\Spring_Web\src\main\java
